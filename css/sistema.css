@@ -1,0 +1,306 @@
+ .div-valor {
+        color: #ff7365;
+        border: solid  #ff7365 2px;
+        font-weight: bold;
+        border-radius: 0 0.3rem 0.3rem 0;
+        padding: 0.375rem 0.75rem;
+    }
+
+
+    .div-texto {
+        border-radius: 0.3rem 0 0 0.3rem;
+        background:  #ff7365;
+        color: #FFF;
+        font-weight: bold;
+        border: solid #ff7365 2px;
+        padding: 0.375rem 0.75rem;
+    }
+
+img{
+    cursor: pointer;
+}
+body,
+html{
+  
+   height: 100%;
+  
+}
+
+
+.bt{
+    background: #1da87f;
+    color: white;
+    width: 10%;
+    float: right
+}
+.bt:hover{
+    background: #1e896a; 
+}
+#ajuda{
+    background-image: url(../img/ajuda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#ajuda:hover{
+    background-image: url(../img/ajuda2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f39c12;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+#configuracao{
+    background-image: url(../img/config.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#configuracao:hover{
+    background-image: url(../img/config2.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-size: 1.2rem;
+    text-decoration: none;
+     color: #f39c12;
+}
+
+#sair{
+    background-image: url(../img/sair.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#sair:hover{
+    background-image: url(../img/sair2.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-size: 1.2rem;
+    text-decoration: none;
+     color: #f39c12;
+}
+
+
+
+/* css das tabs do sistema*/
+  #despesas{
+    background-image: url(../img/despesas.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+}
+  #vendas{
+    background-image: url(../img/vendas.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+}
+  #balanco{
+    background-image: url(../img/grafico.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+}
+  #cardapio{
+    background-image: url(../img/cardapio-sistema.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+}
+  #cliente{
+    background-image: url(../img/usuario-add.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+}
+  #fornecedor{
+    background-image: url(../img/fornecedor.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+}
+
+
+
+
+  #despesas.active, #despesas:hover{
+    background-image: url(../img/despesas2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+    background-color:#485158; 
+}
+  #vendas.active, #vendas:hover {
+    background-image: url(../img/vendas2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+          background-color:#485158; 
+}
+  #balanco.active,#balanco:hover {
+    background-image: url(../img/grafico2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+          background-color:#485158; 
+}
+  #cardapio.active, #cardapio:hover{
+    background-image: url(../img/cardapio-sistema2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+          background-color:#485158; 
+}
+  #cliente.active,  #cliente:hover{
+    background-image: url(../img/usuario-add2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+          background-color:#485158; 
+}
+  #fornecedor.active, #fornecedor:hover{
+    background-image: url(../img/fornecedor2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 20%;
+    background-size: 30%;
+    background-color:#485158; 
+}
+#nav-tab-sistema .active{
+
+   border: solid #e4e9ec 1px;;
+   border-radius: 0;
+    color: #95a5a6;
+   
+    
+}
+
+#nav-sistema p{
+     margin-top: 35% !important;
+     font-size: 1.4rem;
+}
+#nav-sistema a{
+    width: 16.66%;
+    padding: 1rem;
+    color:#D5DEE0  ;
+}
+#nav-sistema a.active{
+    color:#FFF  
+}
+
+#nav-sistema{
+    background: #f1f6f9;
+    border: solid #e2e9ec 1px;
+}
+
+
+#nav-tab-sistema{
+    border:0;
+    border-radius: 0;
+}
+
+
+
+/* css  do formularios*/
+
+#form-cadastra-item{
+    
+   background: #e0eaef;
+    border: solid  #d5d9dc 1px;
+}
+
+.tabela-cadastro-item thead,.tabela-vendas-item thead{
+   background:#17a2b8;
+   color:#FFF;
+ /*background: #FFD967;
+   color:#4f5153;*/
+}
+.tabela-cadastro-item th{
+    padding: 0.75rem 0rem !important;
+}
+.tabela-cadastro-item td{
+    padding: 0.6rem 0rem !important;
+}
+.tabela-cadastro-item input {
+    text-align: center;
+    padding: 0.4rem
+}
+.btn-alterar{
+     background: #2eb978;
+  color: #FFF;
+  font-weight: bold;
+}
+/*.tabela-cadastro-item input:not(.input-valor){
+    border: 0;
+}*/
+/* css tabs cardapio*/
+#nav-cardapio{
+    background: #e67e22;
+}
+#sessao-cardapio p{
+   margin-top: 5%; 
+}
+
+#nav-tab-cardapio .active{
+   border-radius: 0;
+   border: solid  #e67e22 2px;
+   background-image:url(../img/cardapio-semana2.png);
+
+}
+
+#nav-tab-cardapio .active p{
+       color:#e67e22 !important 
+}
+#nav-tab-cardapio p{
+    margin-top: 7rem;
+    text-align: center;
+    color:#FFF;
+    font-size: 1.6rem;
+    
+}
+
+#nav-tab-cardapio a {
+	 border: solid  #e67e22 2px;
+    width: 16.66%; 
+}
+
+#nav-tab-cardapio a {
+	background-image:url(../img/cardapio-semana.png); 
+    background-repeat: no-repeat;
+    height: auto;
+    background-position: center;
+}
+
+#nav-tab-cardapio a:hover{
+   border-radius: 0;
+   background-image:url(../img/cardapio-semana2.png);
+  
+   background-color: #FFF;
+}
+
+#nav-tab-cardapio a:hover p{
+    color:#e67e22; 
+}
+

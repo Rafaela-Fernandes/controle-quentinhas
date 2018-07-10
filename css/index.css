@@ -1,0 +1,265 @@
+
+.voltar-ao-topo {
+	position: fixed;
+	bottom: 1em;
+	right: 0;
+	text-decoration: none;
+	color: white;
+	background-color: #f39c12;
+	padding: 0.3em;
+	display: none;
+z-index: 2;
+}
+.voltar-ao-topo:hover {
+	background-color: #de761b;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 
+}
+
+
+#slide-img{
+    z-index: 100;
+    position: absolute;
+    left: 17%;
+    top: 40%;
+}
+
+#slide-img img {
+	margin-left: 20%;
+}
+#slide-img ol li{
+	top: 10rem;
+}
+#sessao-quem-somos p{
+    font-size: 2rem !important;
+}
+body,
+html {
+	height: 100%;
+}
+
+footer{
+      margin-top: 10%;
+}
+footer{
+ background-image: url(../img/img-footer.jpg);
+  height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+}
+
+.teste{
+    background: rgba(28, 29, 31, 0.74);
+}
+.logo{
+    background-image: url(../img/logo2.jpg);
+    height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.logo3{
+    background-image: url(../img/logo3.jpg);
+    height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+#menu{
+    background:rgba(0, 0, 0, 0.68);
+}
+
+.icones p{
+    margin-top: 11.3rem;
+}
+
+#quem-somos{
+    background-image: url(../img/quem-somos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#quem-somos:hover{
+    background-image: url(../img/quem-somos2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f39c12;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+#cardapio{
+    background-image: url(../img/cardapio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#cardapio:hover{
+    background-image: url(../img/cardapio2.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-size: 1.2rem;
+    text-decoration: none;
+     color: #f39c12;
+}
+
+#fale-conosco{
+    background-image: url(../img/fale-conosco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#fale-conosco:hover{
+    background-image: url(../img/fale-conosco2.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-size: 1.2rem;
+    text-decoration: none;
+     color: #f39c12;
+}
+#acessar-sistema{
+    background-image: url(../img/acessar-sistema.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#acessar-sistema:hover{
+    background-image: url(../img/acessar-sistema2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+     color: #f39c12;
+}
+
+#sessao-cardapio nav{
+    background: #e67e22;
+}
+#sessao-cardapio p{
+   margin-top: 5%; 
+}
+hr{
+    width: 95%;
+}
+#nav-tab .active{
+   border-radius: 0;
+   border: solid  #e67e22 2px;
+   background-image:url(../img/cardapio-semana2.png);
+
+}
+
+#nav-tab .active p{
+       color:#e67e22 !important 
+}
+#nav-tab p{
+    margin-top: 7rem;
+    text-align: center;
+    color:#FFF;
+    font-size: 1.6rem;
+    
+}
+
+.bordas-tr{
+    border: solid #e9ecef 1px;
+    vertical-align: middle;
+}
+#nav-tab a {
+	 border: solid  #e67e22 2px;
+    width: 16.66%; 
+}
+
+#nav-tab a {
+	background-image:url(../img/cardapio-semana.png); 
+    background-repeat: no-repeat;
+    height: auto;
+    background-position: center;
+}
+
+#nav-tab a:hover{
+   border-radius: 0;
+   background-image:url(../img/cardapio-semana2.png);
+  
+   background-color: #FFF;
+}
+
+#nav-tab a:hover p{
+    color:#e67e22; 
+}
+
+
+/*-------------------------- CSS TELA LOGIN     ---------------------------------------*/
+
+.tela-login {
+    background-image: url(../img/logo2.jpg);
+    height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+	
+}
+.fundo-trasparente{
+    background: rgba(15, 15, 16, 0.77);
+    max-height: 100%;
+    min-height: 100%;
+}
+#form-login button{
+    background: #e67e22;
+    color: #FFF;
+}
+#form-login button:hover{
+   background: #fa9a45; 
+    transition: all 1s;
+}
+#form-login{
+    background: rgba(28, 26, 26, 0.88);
+    border: solid #9b9b9c 1px
+}
+#form-login input:focus{
+    box-shadow: none;
+    
+}
+#form-login input{
+    border:0;
+    background: rgba(15, 15, 16, 0.02);
+    border-bottom: solid #9b9b9c 1px;
+    border-radius: 0;
+    outline: none !important;
+    color:#bdc3c7;
+}
+#form-login span {
+     background: rgba(15, 15, 16, 0.02);
+     border: 0;
+      border-bottom: solid #9b9b9c 1px;
+      border-radius: 0;
+}
+
+#form-login a{
+  
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+
